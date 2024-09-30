@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://nobodyczcz.github.io/sitemap.xml
+Sitemap: https://zhe-chen.info/sitemap.xml

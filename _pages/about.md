@@ -2,27 +2,32 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Monash University</a>. zhe.chen[at]monash.edu
+subtitle: <a href='https://www.amazon.science/'>Postdoctoral Scientist, Amazon Robotics</a>. Previously <a href='https://www.monash.edu/'>Monash University</a>.
 
 profile:
   align: right
   image: cz.jpeg
   image_circular: true # crops the image to make it circular
-  # more_info: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
-
+  more_info: >
+    <p>Amazon Robotics</p>
+    <p>North Reading, MA</p>
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-The site is currently under construction!
+I am a Postdoctoral Scientist at Amazon Robotics working on efficient motion planning and coordination of mobile robots in warehouse environments. My research focuses on **Multi-Agent Path Finding (MAPF)**, **Heuristic Search**, and **Planning** algorithms that enable large teams of robots to coordinate seamlessly.
 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `cz.jpg` and put it in the `img/` folder.
+I received my **PhD in Computer Science** from Monash University in 2024, advised by [Prof Daniel Harabor](https://harabor.net/) and [Prof Peter Stuckey](https://people.eng.unimelb.edu.au/pstuckey/). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+## Research Interests
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
--->
+- **Multi-Agent Path Finding**: Developing scalable algorithms for coordinating large teams of robots
+- **Heuristic Search**: Creating efficient search algorithms for path planning problems  
+- **Planning and Scheduling**: Designing algorithms that handle dynamic environments and uncertainties
+- **Traffic Flow Optimization**: Optimizing robot movement in dense environments
+- **Real-time Planning**: Developing algorithms that can adapt to changing conditions
+
+My research has practical applications in warehouse robotics, autonomous vehicle coordination, and any scenario requiring efficient coordination of multiple autonomous agents. I am passionate about bridging the gap between theoretical advances and real-world deployment.
+
+I actively contribute to the research community through organizing workshops (AAAI Workshop on Multi-Agent Path Finding), competitions (Grid-Based Path Planning Competition, League of Robot Runners), and serving on program committees for top-tier venues including AAAI, ICAPS, and SoCS.

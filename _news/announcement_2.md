@@ -1,27 +1,28 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Two Papers Accepted at AAAI 2025
+date: 2025-02-01 09:00:00-0500
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Excited to share that two of our collaborative works have been accepted at AAAI 2025!
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+## Online Guidance Graph Optimization for Lifelong Multi-Agent Path Finding
 
-#### Hipster list
+**Authors**: H. Zang, Y. Zhang, H. Jiang, **Z. Chen**, D. Harabor, P.J. Stuckey & J. Li
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+This work introduces novel optimization techniques for guidance graphs in lifelong MAPF scenarios, enabling more efficient pathfinding for persistent multi-agent systems.
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+## Concurrent Planning and Execution in Lifelong Multi-Agent Path Finding with Delay Probabilities
+
+**Authors**: Y. Zhang, **Z. Chen**, D. Harabor, P. Le Bodic & P.J. Stuckey
+
+This paper addresses the critical challenge of handling uncertainties and delays in real-world multi-agent systems by developing algorithms that can plan and execute concurrently while accounting for probabilistic delays.
+
+Both papers represent significant advances in making MAPF algorithms more practical and robust for real-world deployment. Looking forward to presenting these at AAAI 2025!
 
 ---
 

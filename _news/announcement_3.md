@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-06-18 08:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+🎓 Successfully defended my PhD thesis! Grateful to my advisors Daniel Harabor and Peter Stuckey, and excited for the next chapter at Amazon Robotics.

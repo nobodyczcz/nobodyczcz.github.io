@@ -9,22 +9,17 @@
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #{$slate-gray}; /* Sophisticated dark gray */
+  --global-hover-color: #{$charcoal-gray}; /* Darker gray for hover */
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
+  --global-footer-bg-color: #{$charcoal-gray}; /* Dark charcoal gray */
+  --global-footer-text-color: #{$light-gray}; /* Light gray */
+  --global-footer-link-color: #{$very-light-gray}; /* Very light gray */
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-divider-color: rgba(#{color.channel($slate-gray, "red", $space: rgb)}, #{color.channel($slate-gray, "green", $space: rgb)}, #{color.channel($slate-gray, "blue", $space: rgb)}, 0.2); /* Gray with opacity */
   --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
+  --global-highlight-color: #{$medium-gray}; /* Medium gray for highlights */
+  --global-back-to-top-bg-color: rgba(#{color.channel($charcoal-gray, "red", $space: rgb)}, #{color.channel($charcoal-gray, "green", $space: rgb)}, #{color.channel($charcoal-gray, "blue", $space: rgb)}, 0.6);
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
@@ -75,41 +70,36 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #1a202c; /* Very dark gray background */
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-text-color: #f7fafc; /* Very light gray text */
+  --global-text-color-light: #{$light-gray}; /* Medium light gray */
+  --global-theme-color: #{$blue-gray}; /* Blue-gray accent */
+  --global-hover-color: #{$blue-gray-dark}; /* Darker blue-gray for hover */
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
-  );
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
+  --global-footer-bg-color: #{$charcoal-gray}; /* Dark charcoal */
+  --global-footer-text-color: #{$light-gray}; /* Light gray */
+  --global-footer-link-color: #{$very-light-gray}; /* Very light gray */
+  --global-distill-app-color: #{$slate-gray}; /* Medium gray */
+  --global-divider-color: #{$slate-gray}; /* Gray dividers */
+  --global-card-bg-color: #{$charcoal-gray}; /* Dark card background */
+  --global-back-to-top-bg-color: rgba(#{color.channel($charcoal-gray, "red", $space: rgb)}, #{color.channel($charcoal-gray, "green", $space: rgb)}, #{color.channel($charcoal-gray, "blue", $space: rgb)}, 0.8); /* Dark gray with opacity */
+  --global-back-to-top-text-color: #f7fafc; /* Light gray text */
+  --global-newsletter-bg-color: #{$charcoal-gray}; /* Dark gray background */
+  --global-newsletter-text-color: #f7fafc; /* Light gray text */
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-tip-block: #48bb78; /* Keep green for tips */
+  --global-tip-block-bg: rgba(72, 187, 120, 0.1);
+  --global-tip-block-text: #38a169;
+  --global-tip-block-title: #48bb78;
+  --global-warning-block: #ed8936; /* Warm orange for warnings */
+  --global-warning-block-bg: rgba(237, 137, 54, 0.1);
+  --global-warning-block-text: #dd6b20;
+  --global-warning-block-title: #ed8936;
+  --global-danger-block: #e53e3e; /* Red for danger */
+  --global-danger-block-bg: rgba(229, 62, 62, 0.1);
+  --global-danger-block-text: #c53030;
+  --global-danger-block-title: #e53e3e;
 
   .repo-img-light {
     display: none;

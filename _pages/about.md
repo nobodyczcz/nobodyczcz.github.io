@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.amazon.science/'>Postdoctoral Scientist, Amazon Robotics</a>. Previously <a href='https://www.monash.edu/'>Monash University</a>.
+subtitle: 陈喆 • <a href='https://www.amazon.science/'>Postdoctoral Scientist, Amazon Robotics</a>. Previously <a href='https://www.monash.edu/'>Monash University</a>.
 
 profile:
   align: right
@@ -31,3 +31,31 @@ I received my **PhD in Computer Science** from Monash University in 2024, advise
 My research has practical applications in warehouse robotics, autonomous vehicle coordination, and any scenario requiring efficient coordination of multiple autonomous agents. I am passionate about bridging the gap between theoretical advances and real-world deployment.
 
 I actively contribute to the research community through organizing workshops (AAAI Workshop on Multi-Agent Path Finding), competitions (Grid-Based Path Planning Competition, League of Robot Runners), and serving on program committees for top-tier venues including AAAI, ICAPS, and SoCS.
+
+## System Demonstrations
+
+My research translates into practical systems and tools. Here are demonstrations of some key projects:
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-1">
+        {% include video.liquid path="https://www.youtube.com/embed/Y-v3h_27PXk" class="img-fluid rounded z-depth-1" width="100%" height="640" %}
+        <div class="caption">
+            <strong>League of Robot Runners Competition</strong><br>
+            A competitive platform for multi-agent path finding algorithms with real-time constraints and dynamic environments.
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-1">
+        {% include video.liquid path="https://www.youtube.com/embed/qtG6-h4FZxU" class="img-fluid rounded z-depth-1" width="100%" height="315" %}
+        <div class="caption">
+            <strong>Tracking Progress in Multi-Agent Path Finding</strong><br>
+            Visualization system showing real-time progress tracking and performance metrics for MAPF algorithms.
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-1">
+        {% include video.liquid path="https://www.youtube.com/embed/Pw4GBL1UhPA" class="img-fluid rounded z-depth-1" width="100%" height="315" %}
+        <div class="caption">
+            <strong>Flatland Challenge: Rail Planning System</strong><br>
+            Our winning solution for the 2020 Flatland Challenge, demonstrating scalable train coordination in complex rail networks.
+        </div>
+    </div>
+</div>

@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 陈喆 • <a href='https://www.amazon.science/'>Postdoctoral Scientist, Amazon Robotics</a>. Previously <a href='https://www.monash.edu/'>Monash University</a>.
+subtitle: 陈喆 • <a href='https://www.amazon.science/'>Postdoctoral Scientist, Amazon Robotics</a>. Previously <a href='https://pathfinding.ai/'>Monash University</a>.
 
 profile:
   align: right
@@ -30,7 +30,7 @@ I received my **PhD in Computer Science** from Monash University in 2024, advise
 
 My research has practical applications in warehouse robotics, autonomous vehicle coordination, and any scenario requiring efficient coordination of multiple autonomous agents. I am passionate about bridging the gap between theoretical advances and real-world deployment.
 
-I actively contribute to the research community through organizing workshops (AAAI Workshop on Multi-Agent Path Finding), competitions (Grid-Based Path Planning Competition, League of Robot Runners), and serving on program committees for top-tier venues including AAAI, ICAPS, and SoCS.
+I actively contribute to the research community through organizing workshops ([AAAI Workshop on Multi-Agent Path Finding](https://womapf.github.io/aaai-25/)), competitions ([Grid-Based Path Planning Competition](https://gppc.search-conference.org/), [League of Robot Runners](https://www.leagueofrobotrunners.org/)), and serving on program committees for top-tier venues including AAAI, ICAPS, and SoCS.
 
 ## System Demonstrations
 

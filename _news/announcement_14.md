@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-["Flexibility-Based Traffic Flow Optimisation in Lifelong Multi-Agent Path Finding"](/publications/#lin2026flexibilitytrafficflow) was named an AAMAS 2026 Best Student Paper nominee.
+["Flow-Based Task Assignment for Large-Scale Online Multi-Agent Pickup and Delivery"](/publications/#zhang2026flowbasedtaskassignment) was named an AAMAS 2026 Best Student Paper nominee.

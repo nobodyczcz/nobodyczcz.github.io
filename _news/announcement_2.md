@@ -10,13 +10,13 @@ Excited to share that two of our collaborative works have been accepted at AAAI 
 
 ---
 
-## Online Guidance Graph Optimization for Lifelong Multi-Agent Path Finding
+## [Online Guidance Graph Optimization for Lifelong Multi-Agent Path Finding](/publications/#zang2025onlineguidance)
 
 **Authors**: H. Zang, Y. Zhang, H. Jiang, **Z. Chen**, D. Harabor, P.J. Stuckey & J. Li
 
 This work introduces novel optimization techniques for guidance graphs in lifelong MAPF scenarios, enabling more efficient pathfinding for persistent multi-agent systems.
 
-## Concurrent Planning and Execution in Lifelong Multi-Agent Path Finding with Delay Probabilities
+## [Concurrent Planning and Execution in Lifelong Multi-Agent Path Finding with Delay Probabilities](/publications/#zhang2025concurrentplanning)
 
 **Authors**: Y. Zhang, **Z. Chen**, D. Harabor, P. Le Bodic & P.J. Stuckey
 
